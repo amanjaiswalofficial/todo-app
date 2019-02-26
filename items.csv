@@ -1,10 +1,17 @@
-id,checked,date,context
-1,incomplete,today,add operations
-2,incomplete,today,add operations
-3,incomplete,today,add operations
-4,complete,tomorrow,meet with vijay
-5,complete,tomorrow,meet ram
-6,incomplete,today,complete this task
-7,incomplete,tomorrow,start work and do this task
-8,complete,today,do start reading a book
-9,complete,today,do start reading a book    
+serial_num,status,date,project,message
+1,incomplete,today,android,+android working with everyone
+3,complete,today,android|python,+android working with everyone from +python
+4,incomplete,today,android|python,+android working with everyone from +python
+5,incomplete,today,android|python,+android working with everyone from +python
+6,complete,today,paypal,+paypal working
+7,incomplete,today,None,Brutal working
+9,incomplete,today,None,Brutal working
+10,incomplete,today,None,Brutal working
+11,incomplete,today,Personal,Brutal working
+12,incomplete,today,devops|mobile,do this +devops +mobile
+13,incomplete,tomorrow,devops|mobile,do this +devops +mobile
+14,incomplete,tomorrow,devops|mobile,do this +devops +mobile
+15,incomplete,tomorrow,Personal,meet with Voldemort
+16,incomplete,tomorrow,Personal,meet with raghu
+17,incomplete,21 jun,Personal,meet with raghu due to meeting
+18,incomplete,11 sep,devops,+devops to the end
