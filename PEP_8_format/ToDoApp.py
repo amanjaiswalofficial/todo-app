@@ -5,8 +5,6 @@ import pandas as pd
 from ToDoClass import *
 parser = argparse.ArgumentParser()
 parser.add_argument('echo', nargs='*', default=None)
-
-
 try:
     class UserInteraction:
         inputs = ''
