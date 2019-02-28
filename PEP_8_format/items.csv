@@ -1,5 +1,5 @@
 serial_num,status,date,project,context,message
-1,incomplete,28 feb,animation,mindy,+Animation check in with @mindy
+1,complete,28 feb,animation,mindy,+Animation check in with @mindy
 2,complete,28 feb,devops,john,+Devops talk to @john
 3,incomplete,28 feb,devops,john,+Devops talk to @John
 4,incomplete,28 feb,devops,john|ron,+Devops talk to @John and @Ron
