@@ -281,6 +281,7 @@ def read_todo_file():
                 row['date']='today'
             elif(row['date']==tomorrow):
                 row['date']='tomorrow'
+            #colored_date=colored(display_item.serial_num,'yellow')
             item = Todoitems(row['serial_num'], row['status'], row['date'],
                             row['message'], row['project'], row['context'])
             items.append(item)

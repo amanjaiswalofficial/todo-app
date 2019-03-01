@@ -68,16 +68,7 @@ class UserInteraction:
         result_method = input_len.get(len(inputs[1:]), default)
         result_method()
 
-    def call_complete(self):
-        todo.complete_todo([inputs[1]])
-
-    def call_delete(self):
-        todo.delete_todo([inputs[1]])
     
-    def call_help(self):
-        help_dict={'addh':add_help,'deleteh':delete_help,'completeh':complete_help,'listh':list_help}
-        help_string=help_dict.get(inputs[0])
-        print(help_string)
 
 
 try:
@@ -97,7 +88,6 @@ try:
         result()
     else:
         print(help_guide)
-
 
 except AnyPossibleError:
     print('Invalid Command please refer help by running with no argument')
